@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Miniport by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="static/assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#ISSweather"> Weather below ISS</a></li>
+					<li><a href="#flag"> Flag of a Country</a></li>
+					<li><a href="#distance"> Distance to the ISS</a></li>
+				</ul>
+			</nav>
+
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="https://hips.hearstapps.com/hmg-prod/images/iss066e080440-0-1638891083.jpeg?crop=0.668xw:1.00xh;0.158xw,0&resize=640:*" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Where is the <strong>ISS</strong>?</h1>
+							</header
+							<p><strong>Latitude:</strong> {{lat}} <br>
+								<strong>Longitude:</strong> {{lon}}
+							<br>
+							<strong>See the map here:</strong> <a href="{{map}}">{{map}}</a></p>
+							<br>
+							<br>
+							<a href="#ISSweather" class="button large scrolly">Check out the weather below the ISS</a>
+						</div>
+					</div>
+				</div>
+			</article>
+
+		<!-- Weather -->
+			<article id="ISSweather" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Weather below the ISS</h2>
+						<!-- <p>Odio turpis amet sed consequat eget posuere consequat.</p> -->
+					</header>
+					<p><strong>Temperature (C):</strong> {{temp}} <br>
+						<strong>Description:</strong> {{description}}
+					<br>
+					<br>
+					<footer>
+						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
+						<a href="#flag" class="button large scrolly">Check out the flag of the country below the ISS: {{country}}!</a>
+					</footer>
+				</div>
+			</article>
+
+		<!-- Country Flag-->
+			<article id="flag" class="wrapper style3">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="{{flag}}" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h2>Flag of {{country}}</h2>
+							</header>
+							<p><strong>Meaning:</strong> {{flag_meaning}}
+							<br>
+							<br>
+						</div>
+					</div>
+					<footer>
+						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
+						<a href="#distance" class="button large scrolly">Check out the distance from Saskatoon to the ISS</a>
+					</footer>
+				</div>
+			</article>
+							
+		<!-- Distance -->
+		<article id="distance" class="wrapper style3">
+			<div class="container">
+				<header>
+					<h2>Distance from Saskatoon to ISS</h2>
+				</header>
+				<h3><strong>{{dist}} km</strong></h3> 
+			</div>
+		</article>
+
+		<!-- Scripts -->
+			<script src="static/assets/js/jquery.min.js"></script>
+			<script src="static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="static/assets/js/browser.min.js"></script>
+			<script src="static/assets/js/breakpoints.min.js"></script>
+			<script src="static/assets/js/util.js"></script>
+			<script src="static/assets/js/main.js"></script>
+		
+	</body>
+</html>
