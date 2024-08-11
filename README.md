@@ -25,14 +25,16 @@ This project successfully demonstrates the integration of multiple external data
 
 ## Screenshot of the Webpage
 
-### When the ISS is overwater
-![ISS Tracker Webpage](static/Water1.png)
-![ISS Tracker Webpage](static/Water2.png)
-![ISS Tracker Webpage](static/Water3.png)
-![ISS Tracker Webpage](static/Water4.png)
-
 ### When the ISS is over a country
 ![ISS Tracker Webpage](static/Water5.png)
 ![ISS Tracker Webpage](static/Water6.png)
 ![ISS Tracker Webpage](static/Water7.png)
 ![ISS Tracker Webpage](static/Water8.png)
+
+
+
+### When the ISS is overwater
+![ISS Tracker Webpage](static/Water1.png)
+![ISS Tracker Webpage](static/Water2.png)
+![ISS Tracker Webpage](static/Water3.png)
+![ISS Tracker Webpage](static/Water4.png)
