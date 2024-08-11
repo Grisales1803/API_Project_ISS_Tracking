@@ -1,8 +1,6 @@
 ![ISS Project Header](https://images.theconversation.com/files/446192/original/file-20220214-19-z6fu9c.jpeg?ixlib=rb-4.1.0&rect=49%2C143%2C2932%2C1464&q=45&auto=format&w=1356&h=668&fit=crop)
 
-<p align="center">
-  ISS Tracker Project
-</p>
+# <p align="center"> ISS Tracker Project </p>
 
 ## Introduction & Context
 
